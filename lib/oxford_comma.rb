@@ -1,5 +1,5 @@
 def oxford_comma(array)
-if array.last 
+if array(-1)
   array.join(", and ")
 else 
   array.join(" , ")
